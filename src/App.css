@@ -225,6 +225,10 @@ div.wrapper {
   div.designcard_area {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  div.designcard {
+    width: 49%;
   }
   div.designcard > img {
     border-radius: 20px;
@@ -256,10 +260,11 @@ div.wrapper {
   }
   div.designmodal_container div.img_area > img {
     width: 100%;
+    border-radius: inherit;
   }
   div.designmodal_container div.text_area {
     width: 60%;
-    padding: 20px;
+    padding: 20px 40px 20px 20px;
     position: relative;
     word-break: keep-all;
     color: #150640;
@@ -275,8 +280,9 @@ div.wrapper {
     margin-bottom: 10px;
   }
   div.designmodal_container div.text_area p.desc {
-    font-family: "Pretendatd Variable";
+    font-family: "Pretendard Variable", Pretendard;
     font-size: 17px;
+    line-height: 1.5;
   }
 
 /* web dev card */
@@ -331,7 +337,7 @@ div.wrapper {
     font-weight: 600;
   }
   div.webdevcard div.text_area div.desc {
-    line-height: 1.5;
+    line-height: 1.6;
     font-size: 19px;
   }
   div.webdevcard div.text_area div.btn_area {
@@ -356,11 +362,11 @@ div.wrapper {
   div.webdevcard div.text_area p.version {
     margin-bottom: 5px;
     font-size: 18px;
-    font-family: "Pretendard Variable";
+    font-family: "Pretendard Variable", Pretendard;
     font-weight: 600;
   }
   div.webdevcard div.text_area p.desc {
-    font-family: "Pretendard Variable";
+    font-family: "Pretendard Variable", Pretendard;
     font-size: 17px;
   }
   div.webdevcard div.text_area p.desc > span {
