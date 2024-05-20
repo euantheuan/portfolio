@@ -1,0 +1,118 @@
+{
+    "designcard": [
+        {
+            "id": 1,
+            "imgsrc": "birthday.jpg",
+            "title": "생일 축하 카드",
+            "desc": "생일 축하 메시지가 담긴 이미지입니다. 분홍색, 노란색, 남색의 조합이면 좋겠다고 디자인을 부탁받아 제작하였습니다."
+        },
+        {
+            "id": 2,
+            "imgsrc": "book.png",
+            "title": "책 모임 홍보 포스터",
+            "desc": "책을 함께 읽을 사람들을 모집하기 위한 포스터를 제작하였습니다. 모임에 들어오기 전 꼭 알아야 할 정보들을 담았습니다."
+        },
+        {
+            "id": 3,
+            "imgsrc": "2023party.png",
+            "title": "행사 홍보 포스터",
+            "desc": "행사의 홍보를 위한 카드뉴스 4장 모음입니다. 하와이와 훌라라는 컨셉에 맞추어 열대 기후의 식물로 디자인하여 분위기를 살렸습니다."
+        },
+        {
+            "id": 4,
+            "imgsrc": "hari.png",
+            "title": "강아지 '하리' 스튜디오 촬영 사진",
+            "desc": "강아지의 모습을 사진으로 기록한 것을 보정하였습니다. 강아지의 얼굴에 주의가 집중되도록 신경썼습니다."
+        }
+    ],
+    "webdevcard": [
+        {
+            "id": 1,
+            "imgsrc": "kukje_gallery.png",
+            "title": "국제갤러리",
+            "desc": "'국제갤러리'라는 갤러리의 홈페이지입니다. HTML/CSS를 막 배웠을 때 진행했던 첫 클론코딩입니다. 원 사이트의 탭 기능이나 게시글 미리보기 등의 기능을 구현할 줄 몰랐던 때라 배움에 갈증을 느꼈었습니다. 아쉬운대로 링크 이동을 통해 별개의 페이지로 탭 기능을 구현하는 등 최선을 다했습니다.",
+            "clone": true,
+            "pageurl": "https://euantheuan.github.io/euan_kukjeGallery/",
+            "codeurl": "https://github.com/euantheuan/euan_kukjeGallery",
+            "version": "PC",
+            "page": " index, exhibitions(current, past), about"
+        },
+        {
+            "id": 2,
+            "imgsrc": "guessnum.png",
+            "title": "숫자맞추기 게임",
+            "desc": "5번의 기회 안에 숫자를 맞추는 게임입니다. 정답은 콘솔창에서 확인할 수 있습니다. Javascript를 처음 배우며 만든 예제입니다. 단순한 원리 뒤에도 많은 개념이 필요하다는 것을 알 수 있었습니다.",
+            "clone": false,
+            "pageurl": "https://euantheuan.github.io/chooseyournumber/",
+            "codeurl": "https://github.com/euantheuan/chooseyournumber",
+            "version": "PC",
+            "page": null
+        },
+        {
+            "id": 3,
+            "imgsrc": "private_board.png",
+            "title": "건강'하리'라",
+            "desc": "저희 강아지 '하리'의 사진이 올라오는 사이트입니다. 학원에서 Firebase를 이용해 서버와 데이터베이스를 연결하는 법을 배우며, 욕심이 생겨 도전해본 사이트입니다. 배우지 않은 부분은 Firebase의 공식 문서를 참고하였습니다.",
+            "clone": false,
+            "pageurl": "https://euanandfriends-euanmade.web.app/",
+            "codeurl": "https://github.com/euantheuan/euan_privateBoard",
+            "version": "PC & mobile",
+            "page": null
+        },
+        {
+            "id": 4,
+            "imgsrc": "pintura.png",
+            "title": "핀투라",
+            "desc": "캔버스 그림을 대여해주는 서비스를 제공하는 사이트입니다. 대여받을 그림을 추천받기 위해 사용자는 설문을 진행하게 됩니다. 이 설문에서 직접 디자인한 시안을 바탕으로 jQuery UI를 이용해 다양한 input 요소를 구현하였습니다.",
+            "clone": false,
+            "pageurl": "https://euantheuan.github.io/euan_pintura/",
+            "codeurl": "https://github.com/euantheuan/euan_pintura",
+            "version": "mobile",
+            "page": null
+        },
+        {
+            "id": 5,
+            "imgsrc": "did-archive.png",
+            "title": "DID-archive",
+            "desc": "DID라는 질환에 대한 정보를 제공하는 해외 사이트의 글을 번역하여 업로드하는 것을 목적으로 만든 사이트입니다. 원 사이트의 많은 카테고리들을 보기 편하게 디자인하는 것에 중점을 두었습니다. (저작권과 관련해서는 원 사이트의 저작권자에게 컨텐츠 이용 허락을 받은 상태이며, 번역은 진행 중에 있습니다.)",
+            "clone": false,
+            "pageurl": "https://euantheuan.github.io/euan_didarchive/",
+            "codeurl": "https://github.com/euantheuan/euan_didarchive",
+            "version": "PC & mobile",
+            "page": null
+        },
+        {
+            "id": 6,
+            "imgsrc": "gangseo.png",
+            "title": "강서구 문화시설",
+            "desc": "강서구 문화시설 통합운영관리시스템 홈페이지입니다. 학원 수료 전 가장 마지막으로 진행한 클론코딩이며, HTML/CSS/Javascript를 배운 상태에서 만드니 첫 클론코딩 때와는 다르게 막힘없이 풀어나갈 수 있었습니다.",
+            "clone": true,
+            "pageurl": "https://euantheuan.github.io/euan_gangseo/",
+            "codeurl": "https://github.com/euantheuan/euan_gangseo",
+            "version": "PC",
+            "page": " index, 공연/전시/행사, 교육, 대관, 강서아트리움, 허준박물관, 겸재정선미술관, 강서문화원"
+        },
+        {
+            "id": 6,
+            "imgsrc": "portfolio.png",
+            "title": "text2PDF",
+            "desc": "마크다운 문법으로 작성된 텍스트를 PDF로 내보내는 기능을 가진 사이트입니다. React와 Firebase를 연동하여 클라우드에도 문서를 저장할 수 있습니다. 기존의 문서를 수정 혹은 삭제할 수 있습니다.",
+            "clone": false,
+            "pageurl": "https://text-2-pdf.web.app/",
+            "codeurl": "https://github.com/euantheuan/euan_text2pdf",
+            "version": "PC",
+            "page": null
+        },
+        {
+            "id": 7,
+            "imgsrc": "portfolio.png",
+            "title": "박유안의 포트폴리오",
+            "desc": "최종 프로젝트로 제작한 제 포트폴리오 페이지입니다. React를 이용하여 제작하였으며 어쩌구저쩌구",
+            "clone": true,
+            "pageurl": "https://euans-portfolio.netlify.app/",
+            "codeurl": "https://github.com/euantheuan/euan_portfolio",
+            "version": "PC & mobile",
+            "page": null
+        }
+    ]
+}
