@@ -2,7 +2,7 @@
     "designcard": [
         {
             "id": 1,
-            "imgsrc": "birthday.jpg",
+            "imgsrc": "birthday.png",
             "title": "생일 축하 카드",
             "desc": "생일 축하 메시지가 담긴 이미지입니다. 분홍색, 노란색, 남색의 조합이면 좋겠다고 디자인을 부탁받아 제작하였습니다."
         },

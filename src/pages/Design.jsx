@@ -10,7 +10,7 @@ const Design = () => {
 
     const getCards = async () => {
         try {
-                let url = 'https://my-json-server.typicode.com/euantheuan/euans_portfolio/designcard';
+                let url = 'https://my-json-server.typicode.com/euantheuan/portfolio/designcard';
                 let response = await fetch(url);
                 let data = await response.json();
                 setCards(data);
