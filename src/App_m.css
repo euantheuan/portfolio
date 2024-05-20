@@ -1,0 +1,222 @@
+@media screen and (max-width: 768px) {
+    div.wrapper {
+        min-width: 375px;
+    }
+
+    /* navbar */
+        ul.mobile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #ff8f97;
+            padding: 0 15px;
+        }
+        ul.mobile li.menu {
+            font-size: 30px;
+        }
+        ul.depth02 {
+            display: none;
+            color: #ff8f97;
+            font-size: 23px;
+            padding-bottom: 12px;
+        }
+        ul.depth02.on {
+            display: block;
+        }
+        ul.depth02 li {
+            margin-bottom: 5px;
+        }
+        div.gnb ul.depth02 li a {
+            display: inline-block;
+            width: 100%;
+        }
+
+    /* contact */
+        div.profile {
+            width: 92%;
+            max-width: 350px;
+            padding: 20px
+        }
+        div.profile img {
+            width: 85px; height: 85px;
+        }
+        div.profile div.text_area {
+            font-size: 18px;
+        }
+        div.contact form div.email label {
+            text-align: center;
+        }
+        div.contact form div.email input {
+            width: calc(92% - 120px);
+            max-width: 290px;
+        }
+        div.contact form textarea {
+            width: 92%;
+            max-width: 350px;
+        }
+
+    /* main */
+        div.main_container {
+            height: 90vh;
+        }
+        div.main_container h1 {
+            margin-bottom: 10px;
+        }
+        div.main_container h1:first-child:before {
+            right: 0; top: -60px;
+        }
+        div.main_container h1:first-child:after {
+            top: -60px; right: 40px;
+        }
+        div.main_container span:before {
+            left: -70px
+        }
+        div.main_container span:after {
+            left: -40px
+        }
+        div.scroll {
+            bottom: 60px;
+        }
+
+    /* skills */
+        div.skills_container div.skills_area {
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        div.skills_container div.skillbox {
+            margin-bottom: 0;
+            border-bottom: none;
+        }
+        div.skills_container div.quarter {
+            width: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            position: relative;
+            padding: 20px 0 0;
+        }
+        div.skills_container div.half {
+            border-top: 1px solid rgba(252, 251, 247, 0.5);
+        }
+        div.skills_container div.quarter div.img_area {
+            margin: 0 auto;
+            text-align: center;
+        }
+        div.skills_container div.img_container {
+            justify-content: start;
+        }
+        div.skills_container img {
+            width: 50px; height: auto;
+        }
+        div.skills_container div.half div.img_container {
+            justify-content: space-between;
+            width: 100%;
+        }
+        div.skills_container div.half div.img_area {
+            width: 40%;
+        }
+        div.skills_container h3 {
+            font-size: 20px;
+        }
+        div.skills_container img.canva {
+            width: 100px
+        }
+
+    /* links */
+        div.links {
+            display: block;
+        }
+        div.links div.link {
+            width: 100%;
+            padding: 50px 20px;
+            text-align: right;
+            box-sizing: border-box;
+        }
+        div.links > div+div {
+            border-left: none;
+            border-top: 1px solid hsla(45, 40%, 98%, 1);
+        }
+        div.links div.link h2 {
+            font-size: 30px;
+            height: 70px;
+        }
+        div.links div.link svg {
+            padding-top: 40px;
+        }
+
+    /* card */
+        div.card_container {
+            margin-top: 60px;
+        }
+        div.card_container h2 {
+            font-size: 30px;
+            word-break: keep-all;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        div.card_area {
+            padding-top: 60px;
+        }
+
+    /* design card */
+        div.designcard > img {
+            margin: 0 0 15px;
+        }
+        div.designmodal_container {
+            display: block;
+            width: 95%; height: auto;
+            max-height: 90vh;
+            overflow: scroll;
+            padding: 20px;
+        }
+        div.designmodal_container div.img_area {
+            width: 100%;
+            margin: 0 auto 20px;
+            border-radius: 10px;
+        }
+        div.designmodal_container div.text_area {
+            width: 100%;
+            padding: 0 10px;
+            box-sizing: border-box;
+            display: block;
+        }
+        div.designmodal_container > svg {
+            top: 20px; right: 20px;
+        }
+        div.designmodal_container div.text_area div.text {
+            width: calc(100% - 50px);
+        }
+        div.designmodal_container div.text_area h3.title {
+            font-size: 25px;
+        }
+
+    /* web dev */
+        div.webdevcard {
+            display: block;
+            height: auto;
+        }
+        div.webdevcard div.img_area {
+            width: 100%;
+            margin-bottom: 20px;
+            height: auto
+        }
+        div.webdevcard div.text_area {
+            width: 100%;
+            padding: 0 10px 80px;
+            height: auto;
+        }
+        div.webdevcard div.text_area div.title_area {
+            font-size: 27px;
+        }
+        div.webdevcard div.text_area div.btn_area {
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        div.webdevcard div.text_area div.btn_area button {
+            box-sizing: border-box;
+        }
+}
