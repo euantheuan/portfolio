@@ -166,6 +166,7 @@ div.wrapper {
     font-size: 35px;
     line-height: 1.4;
     height: 118px;
+    word-break: keep-all;
   }
   div.links div.link svg {
     height: 60px;
@@ -283,6 +284,7 @@ div.wrapper {
     font-family: "Pretendard Variable", Pretendard;
     font-size: 17px;
     line-height: 1.5;
+    width: 80%;
   }
 
 /* web dev card */
