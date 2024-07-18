@@ -5,7 +5,7 @@ div.wrapper {
   div.main_container {
     clip-path: polygon(50% 95%, 100% 80%, 100% 0, 0 0, 0 80%);
     background-color: #e44458;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ div.wrapper {
     flex-direction: column;
     text-align: center;
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     word-break: keep-all;
   }
   div.main_container h1 {
@@ -63,9 +63,19 @@ div.wrapper {
 
 /* intro */
   div.intro {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 200px;
+    line-height: 1.2;
+  }
+  div.intro > div {
+    margin-bottom: 10px;
+  }
+  div.intro span {
+    font-family: "Pretendard Variable", Pretendard;
+    font-size: 20px;
+    font-weight: 500;
+
   }
 
 /* skills */

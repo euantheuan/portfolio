@@ -77,6 +77,12 @@
         div.scroll {
             bottom: 60px;
         }
+    /* intro */
+        div.intro {
+            padding: 0 4%;
+            word-break: keep-all;
+        }
+
 
     /* skills */
         div.skills_container div.skills_area {

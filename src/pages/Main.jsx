@@ -18,7 +18,20 @@ const Main = () => {
             </div>
 
             <div className="intro">
-                "소개멘트"
+                <div>
+                    <span>제 포트폴리오 페이지에 방문해주셔서 감사합니다.</span>
+                </div>
+
+                <div>
+                    <span>새롭고 낯선 상황/문화에 흥미를 느끼는<br /></span>
+                    박 유 안<span> 입니다.</span>
+                </div>
+
+                <div>
+                    <span>아래 링크를 통해 제 작업물 등을 열람하실 수 있습니다.</span>
+                </div>
+
+                
             </div>
 
             <div className="links">
