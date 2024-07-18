@@ -57,22 +57,26 @@
 
     /* main */
         div.main_container {
-            height: 90vh;
+            height: 95vh;
         }
         div.main_container h1 {
             margin-bottom: 10px;
+            font-size: 27px;
         }
-        div.main_container h1:first-child:before {
-            right: 0; top: -60px;
+        div.main_container h1 span {
+            font-size: 32px;
         }
-        div.main_container h1:first-child:after {
-            top: -60px; right: 40px;
+        div.main_container > div.moto:before {
+            right: -20px; top: -60px;
         }
-        div.main_container span:before {
-            left: -70px
+        div.main_container > div.moto:after {
+            top: -60px; right: -30px;
         }
-        div.main_container span:after {
-            left: -40px
+        div.main_container > h1 > span:before {
+            left: -60px; bottom: -50px;
+        }
+        div.main_container > h1 > span:after {
+            left: -30px; bottom: -60px;
         }
         div.scroll {
             bottom: 60px;

@@ -5,7 +5,7 @@ div.wrapper {
   div.main_container {
     clip-path: polygon(50% 95%, 100% 80%, 100% 0, 0 0, 0 80%);
     background-color: #e44458;
-    height: 70vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -15,38 +15,50 @@ div.wrapper {
     position: relative;
     margin-bottom: 100px;
     word-break: keep-all;
+    padding-bottom: 50px;
+  }
+  div.main_container div.moto {
+    font-family: "Pretendard Variable", Pretendard;
+    line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 40px;
+    font-size: 21px;
+    font-weight: 500;
+    position: relative;
   }
   div.main_container h1 {
     font-weight: normal;
+  }
+  div.main_container h1 span {
     position: relative;
   }
-  div.main_container h1:first-child:before {
+  div.main_container > div.moto:before {
     content: '';
     background: url(../public/ico/star_big.png) no-repeat center/contain;
     width: 50px; height: 50px;
     position: absolute;
-    top: -40px; right: -60px;
+    top: -30px; right: -80px;
   }
-  div.main_container h1:first-child:after {
+  div.main_container > div.moto:after {
     content: '';
     background: url(../public/ico/star_small.png) no-repeat center/contain;
     width: 20px; height: 20px;
     position: absolute;
-    top: 0; right: -70px;
+    top: 0; right: -95px;
   }
-  div.main_container span:before {
+  div.main_container > h1 > span:before {
     content: '';
     background: url(../public/ico/star_medium.png) no-repeat center/contain;
     width: 40px; height: 40px;
     position: absolute;
-    bottom: -20px; left: -80px;
+    bottom: -30px; left: -90px;
   }
-  div.main_container span:after {
+  div.main_container > h1 > span:after {
     content: '';
     background: url(../public/ico/star_small.png) no-repeat center/contain;
     width: 20px; height: 20px;
     position: absolute;
-    bottom: -30px; left: -95px;
+    bottom: -40px; left: -105px;
   }
   div.main_container span {
     font-size: 40px;
@@ -68,21 +80,17 @@ div.wrapper {
     margin-bottom: 150px;
     line-height: 1.2;
   }
-  div.intro div {
+  div.intro > div {
     margin-bottom: 10px;
-  }
-  div.intro > div.moto {
-    font-style: italic;
-    margin-bottom: 40px;
-  }
-  div.intro > div.moto > span {
-    font-size: 20px;
-  }
-  div.intro span {
     font-family: "Pretendard Variable", Pretendard;
+    line-height: 1.5;
     font-size: 18px;
     font-weight: 500;
-
+  }
+  div.intro > div > span {
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
   }
 
 /* skills */
