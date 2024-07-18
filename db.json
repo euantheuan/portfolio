@@ -23,6 +23,12 @@
             "imgsrc": "hari.png",
             "title": "강아지 '하리' 스튜디오 촬영 사진",
             "desc": "강아지의 모습을 사진으로 기록한 것을 보정하였습니다. 강아지의 얼굴에 주의가 집중되도록 신경썼습니다."
+        }, 
+        {
+            "id": 4,
+            "imgsrc": "pintura.png",
+            "title": "핀투라 웹 페이지",
+            "desc": "팀 프로젝트로 제작 진행하였던 웹 페이지입니다. 3명의 팀원과 함께 진행하였으며, 디자인은 제가 도맡았습니다. '웹 개발 포트폴리오'에서 보다 자세히 볼 수 있습니다."
         }
     ],
     "webdevcard": [
@@ -107,7 +113,7 @@
             "id": 7,
             "imgsrc": "portfolio.png",
             "title": "박유안의 포트폴리오",
-            "desc": "최종 프로젝트로 제작한 제 포트폴리오 페이지입니다. React를 이용하여 제작하였으며 어쩌구저쩌구",
+            "desc": "제 포트폴리오 페이지입니다. React를 이용하여 제작하였으며 최종 프로젝트로 진행하였습니다.",
             "clone": true,
             "pageurl": "https://euans-portfolio.netlify.app/",
             "codeurl": "https://github.com/euantheuan/euan_portfolio",
