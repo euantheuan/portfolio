@@ -18,6 +18,10 @@ const Main = () => {
             </div>
 
             <div className="intro">
+
+                <div className='moto'>
+                    <span>"하고자 하면 방법이 보이고,<br />하지 않고자 하면 변명이 보인다"</span>
+                </div>
                 <div>
                     <span>제 포트폴리오 페이지에 방문해주셔서 감사합니다.</span>
                 </div>

@@ -13,7 +13,7 @@ div.wrapper {
     flex-direction: column;
     text-align: center;
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     word-break: keep-all;
   }
   div.main_container h1 {
@@ -65,15 +65,22 @@ div.wrapper {
   div.intro {
     font-size: 30px;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     line-height: 1.2;
   }
-  div.intro > div {
+  div.intro div {
     margin-bottom: 10px;
+  }
+  div.intro > div.moto {
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  div.intro > div.moto > span {
+    font-size: 20px;
   }
   div.intro span {
     font-family: "Pretendard Variable", Pretendard;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 
   }
