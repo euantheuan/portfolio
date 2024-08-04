@@ -32,6 +32,7 @@ const Design = () => {
             <div className="card_container designcard_container">
                 <h2>디자인 포트폴리오</h2>
                 <div className="card_area designcard_area">
+                <p>클릭해 보세요!</p>
                     {
                         cards.map((card, index)=>(
                             <DesignCard key={index}

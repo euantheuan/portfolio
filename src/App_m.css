@@ -57,14 +57,19 @@
 
     /* main */
         div.main_container {
-            height: 95vh;
+            height: 85vh;
+            line-height: 35px;
         }
         div.main_container h1 {
             margin-bottom: 10px;
             font-size: 27px;
+            padding: 0 6%;
         }
         div.main_container h1 span {
             font-size: 32px;
+        }
+        div.main_container div.moto {
+            font-size: 18px;
         }
         div.main_container > div.moto:before {
             right: -20px; top: -60px;
@@ -81,12 +86,15 @@
         div.scroll {
             bottom: 60px;
         }
+        div.intro > div {
+            font-size: 17px;
+        }
+
     /* intro */
         div.intro {
             padding: 0 4%;
             word-break: keep-all;
         }
-
 
     /* skills */
         div.skills_container div.skills_area {
@@ -148,11 +156,12 @@
             border-top: 1px solid hsla(45, 40%, 98%, 1);
         }
         div.links div.link h2 {
-            font-size: 30px;
-            height: 70px;
+            font-size: 25px;
+            height: 60px
         }
         div.links div.link svg {
-            padding-top: 40px;
+            padding-top: 20px;
+            height: 40px
         }
 
     /* card */
@@ -170,8 +179,14 @@
         }
 
     /* design card */
+    div.designcard_area {
+        padding-top: 140px;
+    }
         div.designcard > img {
             margin: 0 0 15px;
+        }
+        div.designcard_area > p {
+            top: 40px;
         }
         div.designmodal_container {
             display: block;
